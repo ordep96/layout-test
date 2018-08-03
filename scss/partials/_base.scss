@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700');
+
+$roboto:'Roboto', sans-serif;
+$montserrat:'Montserrat', sans-serif;
+$color1:#FE7676;
+
+
+*,*::after, *::before{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+body{
+  font-family:$roboto;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.container{
+  width:90%;
+  margin:auto;
+}
